@@ -1,0 +1,141 @@
+body {
+  background-color: #121417;
+  color: white;
+  font-family: "Overpass", sans-serif;
+}
+
+p {
+  color: #7c8798;
+}
+
+.rate-container {
+  background-color: #252d37;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 375px;
+  width: 20%;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 250px;
+  margin-left: 740px;
+}
+
+.thank-you-container {
+  background-color: #252d37;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 375px;
+  width: 20%;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 250px;
+  margin-left: 740px;
+}
+
+.ratings {
+  display: flex;
+  justify-content: center;
+  align-items: space-around;
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+}
+
+.star-img {
+  background-color: #7c8798;
+  display: flex;
+  justify-content: flex-start;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+}
+
+.star {
+  margin-top: 9px;
+  margin-left: 10px;
+  height: 20px;
+  width: 20px;
+}
+
+.text-container {
+  text-align: left;
+  position: relative;
+  margin-top: 55px;
+}
+
+.ratings {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 180px;
+}
+
+.rate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #121417;
+  border-radius: 100%;
+  margin-right: 10px;
+  margin-left: 10px;
+  height: 45px;
+  min-width: 45px;
+  border: none;
+  color: white;
+}
+
+.rate:hover {
+  background-color: #fb7413;
+}
+
+.rate:focus {
+  background-color: #7c8798;
+}
+
+.submit {
+  border-radius: 20px;
+  border-color: #fb7413;
+  background-color: #fb7413;
+  height: 50px;
+  width: 300px;
+  margin-top: 45px;
+}
+
+.submit:hover {
+  background-color: white;
+  color: #fb7413;
+  border: none;
+}
+
+.rate-again {
+  border-radius: 20px;
+  border-color: #fb7413;
+  background-color: #fb7413;
+  height: 50px;
+  width: 300px;
+  margin-top: 15px;
+}
+
+.rate-again:hover {
+  background-color: white;
+  color: #fb7413;
+  border: none;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.attribution {
+  position: absolute;
+  display: flex;
+  margin-left: 800px;
+  margin-top: 680px;
+}
